@@ -1,0 +1,113 @@
+body {
+    overflow: hidden;
+    background:linear-gradient(to left , #01183a, #0050CE);
+    
+   
+}
+.calendar{
+    display: flex;
+}
+.header{
+    background-color: #0050CE;
+    height: max-content;
+    font-size: 40px;
+    width: 100%;
+    padding: 10px;
+    color: #01183a;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+.header img{
+    margin-right: 35px;
+    margin-left: 25px;
+    border: 10px;
+    margin-top: 5px;
+    width:55px;
+    height:55px;
+}
+
+.button a{
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 2px;
+    border-radius: 05px;
+    background-color: #01183a;
+}
+.button{
+    width: max-content;  
+    position: fixed;
+    left:1200px;
+}
+
+nav{
+    background-color: #92a5c2;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 20px;
+    width: 70px;
+    }
+
+    nav ul  li{
+        padding: 20px;
+        list-style-type: none;
+    }
+    nav ul{
+        padding: 1px;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    li a:hover{
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+.tabcalendar{
+width : 100%;
+height: 100%;
+border-radius: 30px;
+overflow: auto;
+
+}
+
+.tabcalendar td{
+    border: 1px solid rgb(255, 255, 255); 
+    color: whitesmoke;
+    font-size: 20px;
+    width: calc(100vh);
+    height: calc(16vh);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.tabcalendar td:hover{
+    background-color:rgb(112, 131, 151);
+}
+.tabcalendar th{
+    background-color: #01183a;
+    color: white;
+    text-align: center;
+    border-left: 2px solid rgb(12, 17, 114) ;
+    height: 50px;
+}
+
+.event{
+    font-size: 15px;
+    padding: 1px;
+    height: 05px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.event a{
+    text-decoration: none;
+    color: white;
+    background-color: #0050CE;
+    padding: 5px;
+    border-radius: 10px;
+}
